@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
-import { fetchData, getMonthKey, saveTask, deleteTask, getErrorMessage } from '../lib/storage';
-import { UserProfile, AppData, DailyTask } from '../types';
+import { fetchData, getMonthKey, saveTask, deleteTask, getErrorMessage, saveMentalState } from '../lib/storage';
+import { UserProfile, AppData, DailyTask, MentalState } from '../types';
 import { HabitTracker } from './HabitTracker';
 import { DailyPlanner } from './DailyPlanner';
 import { AnalysisPanel } from './AnalysisPanel';
